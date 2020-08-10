@@ -1,8 +1,10 @@
-import "./style.scss";
-console.log("Hello webpack!");
+const getUserModule = () =>
+  import("./common/usersAPI");
 
-const fancyFunc = () => {
-  return [1, 2];
-};
+const btn = document.getElementById("btn");
 
-const [a, b] = fancyFunc();
+btn.addEventListener("click", () => {
+  getUserModule().then(({ getUsers }) => {
+    getUsers().then(json => console.log(json));
+  });
+});
