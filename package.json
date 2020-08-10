@@ -1,0 +1,26 @@
+{
+  "name": "UltimateWebpackStarter",
+  "version": "1.0.0",
+  "description": "Ultimate Webpack Starter for FrontEnd Developers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuckyGStar/UltimateWebpackStarter.git"
+  },
+  "keywords": [],
+  "author": "Andy Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuckyGStar/UltimateWebpackStarter/issues"
+  },
+  "homepage": "https://github.com/LuckyGStar/UltimateWebpackStarter#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
